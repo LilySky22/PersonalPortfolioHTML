@@ -22,8 +22,8 @@
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
 
-    --bs: 0.35em 0.35em 0.75em rgba(0,0,0,.25), 
-        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    --bs: 0.35em 0.35em 0.75em #9c86ff52, 
+        0.125em 0.125em 0.25em #9c86ff52;
 }
 
 @media (min-width: 800px) {
@@ -462,6 +462,21 @@ header {
     color: var(--clr-light);
 }
 
+.portfolio-item-individual video {
+    width: 100%;
+    height: 100%;
+}
+
 .AboutProject {
     background: var(--clr-dark);
+}
+
+.portfolio-item-individual-white a {
+    color: var(--clr-dark);
+    text-align: center;
+    background: var(--clr-light);
+}
+
+.portfolio-item-individual-white  h3 {
+    padding-top: 20px;
 }
